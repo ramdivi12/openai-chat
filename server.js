@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 const OpenAI = require("openai");
 
 const openai = new OpenAI({
-  apiKey: "sk-proj-XrDORuYWdzIqbrZBgZO2T3BlbkFJ5eh9cVY2DPCK5W6N3QQY",
+  apiKey: "YOUR_API_KEY",
 });
 
 const app = express();
